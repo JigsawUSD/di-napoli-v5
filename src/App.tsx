@@ -12,6 +12,7 @@ import { ReviewsSection } from './components/ReviewsSection';
 import { LocationsSection } from './components/LocationsSection';
 import { ReservationModal } from './components/ReservationModal';
 import { Footer } from './components/Footer';
+import { WhatsAppButton } from './components/WhatsAppButton';
 
 export default function App() {
   const [isReservationOpen, setIsReservationOpen] = useState(false);
@@ -132,6 +133,9 @@ export default function App() {
         onClose={() => setIsReservationOpen(false)}
         preselectedStoreId={preselectedStoreId}
       />
+
+      {/* Floating WhatsApp Button */}
+      <WhatsAppButton />
     </div>
   );
 }

@@ -51,13 +51,15 @@ export const ReviewsSection: React.FC = () => {
             </h2>
           </div>
 
-          <button
-            onClick={() => setIsModalOpen(true)}
+          <a
+            href="https://www.google.com/search?sca_esv=de982f5a9a8bacae&sxsrf=APpeQnsbrHPG-NYqCLps_Sp7P_NzqRaycg:1784828780349&si=APenkKm7iecQ4G6P-TsbSMFKIQtv3EFIqRAFw-i8uEbk55Z-_6KG9M50aEjUv5RqI9DNKpwUftuz2ubCJ5aqmyI1kceCtHTGPERvjGHa6rx_xspTzVWpGoYV3_j_6HuBnerGXJ4VntNeHZrxkF57ULHQ2FlAi6M8j7m1-47PrsfpACEfAqOpiog%3D&q=Sorveteria+e+Cafeteria+Di+Napoli+Coment%C3%A1rios&sa=X&ved=2ahUKEwin2b-rremVAxW6qpUCHUopCOEQ0bkNegQINhAH&biw=1280&bih=863&dpr=1#lrd=0x94c80b99694e7d6f:0x3f1288c2955064f5,3,,,,"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#942225] hover:bg-[#78181b] text-white px-6 py-3 rounded-full text-xs font-bold uppercase tracking-wider transition-all shadow-md shadow-[#942225]/20 cursor-pointer self-start md:self-auto"
           >
             <MessageSquarePlus className="w-4 h-4" />
             <span>Avaliar Experiência</span>
-          </button>
+          </a>
         </div>
 
         {/* Reviews Grid */}
